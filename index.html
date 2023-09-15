@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Document</title>
+<style>
+    .a-cont{
+        padding: 0px;
+        height: 800px;
+        
+    }
+    .a-col{
+        
+      background-color: rgb(130, 16, 16);
+        
+        height: 400px;
+    }
+    .b-col{
+        
+        height: 400px;
+        background-color: rgb(153, 153, 20);
+    }
+    .b-col > h1,p{
+        color:white;
+        text-transform: uppercase;
+    }
+    
+    
+    
+    header{ 
+        height: 100px;
+        background-color: rgb(209, 95, 29);
+       
+        font-size: 40px;
+    
+    }
+    header > h1{
+        color: green;
+        
+    }
+    span{
+    color: rgb(142, 49, 100);
+    text-transform:uppercase;
+   
+    }
+    
+    .a-form{
+       margin: auto;
+        width: 300px;
+        margin-top: 50px;
+        
+    }
+    .a-span{
+        color: black;
+        
+    }
+    header >h2{
+        text-align: center;
+        text-transform: uppercase;
+        
+    }
+
+    footer{
+        background-color: gray;
+        height: 100px;
+    }
+    footer >h1{
+        color: white;
+    }
+</style>
+
+</head>
+<body>
+    <div class="container-fluid a-cont ">
+        <header>
+            <div class="a-span">
+            <h1><span>i</span>Deal</h1>
+        </div>
+            <h2>welcome to my page</h2></header>
+        <div class="row">
+            <div class="col-8 a-col">
+                <form class="a-form ">
+                    <div class="mb-3">
+                      <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email"> 
+                    </div>
+                    <div class="mb-3">
+                     
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your password">
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6 a-check">
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                              </div>
+                        </div>
+                        <div class="col-6 a-pwd text-end ">
+                        <a class="text-decoration-none" href="#">Forgot Password</a>
+                        </div>
+
+                    </div>
+
+                    
+                    <button type="submit" class="btn btn-success w-100">Submit</button>
+                  </form>
+
+
+            </div>
+            <div class="col-4 b-col">
+                <h1>make easy</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut porro ullam non laboriosam, tenetur repellat cum architecto suscipit sapiente voluptatem unde dicta distinctio nihil reiciendis sunt! Nostrum nobis suscipit esse nihil, corrupti repellat ducimus distinctio veniam! Nihil in distinctio deserunt, perferendis libero dolorem sit, illum, maxime beatae aspernatur nesciunt eius!</p>
+            </div>
+        </div>
+
+        <footer>
+            
+                <h1>About Section</h1>
+                <a href="">Email Us</a>
+                <a href="">Faceook</a>
+                <a href="">Twitter</a>
+            
+        </footer>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
